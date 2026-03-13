@@ -26,5 +26,5 @@ Trước khi bắt đầu, hãy đảm bảo hệ thống của bạn đã cài 
 
 **Bước 1: Clone repository**
 ```bash
-git clone [https://github.com/morax2906/miniBlockChain.git](https://github.com/morax2906/miniBlockChain.git)
+git clone https://github.com/morax2906/miniBlockChain.git
 cd miniBlockChain
