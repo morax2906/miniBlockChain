@@ -28,16 +28,16 @@ Trước khi bắt đầu, hãy đảm bảo hệ thống của bạn đã cài 
 ```bash
 choco install openssl
 ```
-**Bước 2: Clone Project
+**Bước 2: Clone Project**
 ```bash
 git clone https://github.com/morax2906/miniBlockChain.git
 cd miniBlockChain
 ```
-**Bước 3: Biên dịch trên CMD 
+**Bước 3: Biên dịch trên CMD** 
 ```bash
 cd miniBlockChain
 g++ *.cpp -o blockchain_app -lssl -lcrypto
 ```
-**Chạy chương trình 
+**Chạy chương trình **
 ```bash
 blockchain_app.exe
