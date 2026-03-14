@@ -35,9 +35,23 @@ cd miniBlockChain
 ```
 **Bước 3: Biên dịch trên CMD** 
 ```bash
-cd miniBlockChain
 g++ *.cpp -o blockchain_app -lssl -lcrypto
 ```
 **Chạy chương trình **
 ```bash
 blockchain_app.exe
+```
+
+
+## 📁 Cấu trúc thư mục
+ ->main.cpp: Điểm khởi đầu của chương trình.
+
+ ->block.cpp/h: Định nghĩa cấu trúc của một khối đơn lẻ.
+
+ ->blockchain.cpp/h: Logic quản lý chuỗi và đào khối.
+
+ ->transaction.cpp/h: Quản lý dữ liệu giao dịch.
+
+ ->wallet.cpp/h: Hệ thống ví và khóa bảo mật.
+
+ ->p2p.cpp/h: Xử lý kết nối mạng giữa các máy (Peer-to-Peer).
