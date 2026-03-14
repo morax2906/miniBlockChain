@@ -43,15 +43,23 @@ blockchain_app.exe
 ```
 
 
-## 📁 Cấu trúc thư mục
- ->main.cpp: Điểm khởi đầu của chương trình.
-
- ->block.cpp/h: Định nghĩa cấu trúc của một khối đơn lẻ.
-
- ->blockchain.cpp/h: Logic quản lý chuỗi và đào khối.
-
- ->transaction.cpp/h: Quản lý dữ liệu giao dịch.
-
- ->wallet.cpp/h: Hệ thống ví và khóa bảo mật.
-
- ->p2p.cpp/h: Xử lý kết nối mạng giữa các máy (Peer-to-Peer).
+## miniBlockChain/
+├── 📁 include/           # Chứa toàn bộ các file .h
+│   ├── block.h
+│   ├── blockchain.h
+│   ├── lib.h
+│   ├── p2p.h
+│   ├── transaction.h
+│   └── wallet.h
+├── 📁 src/               # Chứa toàn bộ các file .cpp
+│   ├── block.cpp
+│   ├── blockchain.cpp
+│   ├── lib.cpp
+│   ├── p2p.cpp
+│   ├── transaction.cpp
+│   ├── wallet.cpp
+│   └── main.cpp          # File chạy chính
+├── 📁 docs/              # Tài liệu hướng dẫn hoặc hình ảnh demo
+├── .gitignore            # Các file cần bỏ qua (như .exe, .obj, .vs/)
+├── build.bat             # File script để build nhanh trên Windows
+└── README.md             # Tài liệu giới thiệu dự án
